@@ -28,7 +28,6 @@ const storeWithPersisted = () => {
   localStorage.clear();
   return { store, persistor };
 };
-
 export {
   FLUSH,
   REHYDRATE,
